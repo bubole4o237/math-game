@@ -1,0 +1,18 @@
+.titleParagraph {
+    display: inline-block;
+    color: blue;
+}
+
+.buttonP {
+    font-weight: bold;
+    margin: 0px 10px 20px 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff7eb;
+    /* background-color: #fff; */
+}
+
+.buttonP:hover {
+    background-color: rgb(250, 208, 144);
+}

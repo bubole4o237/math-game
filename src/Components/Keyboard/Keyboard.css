@@ -1,0 +1,27 @@
+.letter {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: bold;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.letter:hover {
+    background-color: blue;
+    color: gold;
+}
+
+.selected {
+    background-color: blue;
+    color: #fff;
+}
+
+#keyboard {
+    margin-bottom: 10px;
+}

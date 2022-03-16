@@ -1,5 +1,20 @@
+body {
+  background-image: url("../src/img/fon-bg-3.jpeg");
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  background-size: cover;
+  background-blend-mode: color;
+}
+
 .App {
   text-align: center;
+}
+
+.main {
+  width: 900px;
+  margin: 0px auto;
+  padding: 10px;
+  /* background-color: #61dafb; */
 }
 
 .App-logo {
@@ -32,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
